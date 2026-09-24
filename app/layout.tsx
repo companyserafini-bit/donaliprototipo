@@ -3,21 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Dona Li Party | Festas infantis e decoração',
+  title: '[NOME] | Festas infantis e decoração',
   description: 'Decoração afetiva, aluguel de peças e kits Pegue e Monte para festas inesquecíveis.',
-  metadataBase: new URL('https://donali.party'),
-  openGraph: {
-    title: 'Dona Li Party | Festas infantis e decoração',
-    description: 'Decoração afetiva, aluguel de peças e kits Pegue e Monte para festas inesquecíveis.',
-    type: 'website',
-    images: ['https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boys%203-q7NJLbbWpXv6t2kXb8uX6dmvpTWkhn.jpg'],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Dona Li Party | Festas infantis e decoração',
-    description: 'Decoração afetiva, aluguel de peças e kits Pegue e Monte para festas inesquecíveis.',
-    images: ['https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boys%203-q7NJLbbWpXv6t2kXb8uX6dmvpTWkhn.jpg'],
-  },
   generator: 'v0.app',
   icons: {
     icon: [
