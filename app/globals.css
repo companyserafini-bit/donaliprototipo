@@ -212,15 +212,6 @@ html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 .nav-link { position: relative; }
 .nav-link::after { content: ''; position: absolute; inset-inline: 0; bottom: -6px; height: 2px; background: #e85d7b; transform: scaleX(0); transform-origin: left; transition: transform 250ms ease-out; }
 .nav-link:hover::after { transform: scaleX(1); }
-.filter-scroll { scrollbar-width: none; }
-.filter-scroll::-webkit-scrollbar { display: none; }
-@keyframes lightbox-in { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
-[role='dialog'] > div { animation: lightbox-in 280ms cubic-bezier(.22,1,.36,1) both; }
-
-@media (max-width: 767px) {
-  .filter-scroll { max-width: 100%; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 4px; }
-  .filter-scroll > * { scroll-snap-align: start; }
-}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 1ms !important; }
