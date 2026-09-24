@@ -206,6 +206,9 @@ html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 .motion-button:hover { transform: translateY(-3px); filter: brightness(1.04); }
 .motion-button:active { transform: scale(.97); }
 .whatsapp-pulse { animation: soft-pulse 4s ease-out infinite; }
+.whatsapp-glow { box-shadow: 0 0 0 8px rgb(232 93 123 / 0.12), 0 12px 30px rgb(232 93 123 / 0.28); }
+.whatsapp-glow:hover { box-shadow: 0 0 0 12px rgb(232 93 123 / 0.18), 0 16px 34px rgb(232 93 123 / 0.35); }
+.how-step { transition-delay: var(--step-delay, 0ms); }
 .nav-link { position: relative; }
 .nav-link::after { content: ''; position: absolute; inset-inline: 0; bottom: -6px; height: 2px; background: #e85d7b; transform: scaleX(0); transform-origin: left; transition: transform 250ms ease-out; }
 .nav-link:hover::after { transform: scaleX(1); }
